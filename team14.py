@@ -7,7 +7,7 @@
 ####
 
 team_name = 'Keegan Wenck' # Only 10 chars displayed.
-strategy_name = 'Collude Until Betrayed'
+strategy_name = 'Probe what opponent will do, then will attempt to betray if opponent will collude if betrayed.'
 strategy_description = 'If I have the same amount of points as my opponent; collude, in any other situation; betray.'
     
 def move(my_history, their_history, my_score, their_score):
